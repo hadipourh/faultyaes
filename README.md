@@ -339,7 +339,8 @@ print("expected plaintext:\t %s" % hex(plaintext).upper())
 
 
 ## Experiment 1
-Assuming that `number_of_faults` faults have been induced, we generate `N` random (faulty) ciphertexts and collect observed values at each output byte of ciphertexts. We repeat this experiment for several random master keys and aiming to see how many random queries is required on average to observe all possible values at least once for an arbitrary output byte of ciphertext.
+
+Assuming that `number_of_faults` faults have been applied, we generate `N` random (faulty) ciphertexts and collect the observed values at each output byte of ciphertext. We repeat this experiment for several random master keys to see how many random queries is required on average to observe all possible values at least once for an arbitrary output byte of ciphertext.
 
 
 ```python
