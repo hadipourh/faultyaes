@@ -1,6 +1,6 @@
 # Multiple Persisten Faults Attack - Faulty AES
 
-The repository complements our research documented in [Practical Multiple Persistent Faults Analysis](https://www.iacr.org/cryptodb/data/paper.php?pubkey=31580) which has been accepted to [IACR-CHES-2022](https://ches.iacr.org/2022/).
+This repository complements our research documented in [Practical Multiple Persistent Faults Analysis](https://www.iacr.org/cryptodb/data/paper.php?pubkey=31580) which has been accepted to [IACR-CHES-2022](https://ches.iacr.org/2022/).
 
 ePrint version: [Practical Multiple Persistent Faults Analysis](https://eprint.iacr.org/2021/1362)
 
