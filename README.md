@@ -109,7 +109,7 @@ harmonic_number = lambda n: float(sum(Fraction(1, d) for d in range(1, n+1)))
 
 ## Implement (Faulty) AES-128
 
-* In the following implementation it is supposed that key schedule is not effeccted by the faults
+* In the following implementation it is supposed that key schedule is not affected by the faults
 
 
 ```python
