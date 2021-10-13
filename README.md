@@ -578,7 +578,7 @@ plt.savefig("close_up_diagram_of_non_observed_values.svg", format='svg', dpi=120
     
 
 
-**Fitt an Exponential Curve on the Derived Data - Overview**
+**Fit an Exponential Curve to Derived Data - Overview**
 
 
 ```python
@@ -596,7 +596,7 @@ cmap = plt.get_cmap('hsv')
 colors = [cmap(i) for i in np.linspace(0, 1, 17)]
 for i in range(len(number_of_faults)):
     y_data = candidates[i][x_start_point - 1:]
-    # Fitt a curve to data
+    # Fit a curve to data
     popt, pcov = curve_fit(func, x_data, y_data)
     plt.plot(x_data, func(x_data, *popt),\
              color=colors[i],
@@ -628,7 +628,7 @@ plt.savefig("overview_fit_on_non_observed_values.svg", format='svg', dpi=1200)
     
 
 
-**Fitt an Exponential Curve on The Derived Data - Close up**
+**Fit an Exponential Curve to Derived Data - Close up**
 
 
 ```python
@@ -643,7 +643,7 @@ cmap = plt.get_cmap('hsv')
 colors = [cmap(i) for i in np.linspace(0, 1, 17)]
 for i in range(len(number_of_faults)):
     y_data = candidates[i][x_start_point - 1:]
-    # Fitt a curve to data
+    # Fit a curve to data
     popt, pcov = curve_fit(func, x_data, y_data)
     plt.plot(x_data, func(x_data, *popt),\
              color=colors[i],
