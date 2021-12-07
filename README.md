@@ -877,103 +877,7 @@ mean_num_of_candidates = mean(number_of_candidates)
 
     Experiment no:   0
     Experiment no:   1
-    Experiment no:   2
-    Experiment no:   3
-    Experiment no:   4
-    Experiment no:   5
-    Experiment no:   6
-    Experiment no:   7
-    Experiment no:   8
-    Experiment no:   9
-    Experiment no:  10
-    Experiment no:  11
-    Experiment no:  12
-    Experiment no:  13
-    Experiment no:  14
-    Experiment no:  15
-    Experiment no:  16
-    Experiment no:  17
-    Experiment no:  18
-    Experiment no:  19
-    Experiment no:  20
-    Experiment no:  21
-    Experiment no:  22
-    Experiment no:  23
-    Experiment no:  24
-    Experiment no:  25
-    Experiment no:  26
-    Experiment no:  27
-    Experiment no:  28
-    Experiment no:  29
-    Experiment no:  30
-    Experiment no:  31
-    Experiment no:  32
-    Experiment no:  33
-    Experiment no:  34
-    Experiment no:  35
-    Experiment no:  36
-    Experiment no:  37
-    Experiment no:  38
-    Experiment no:  39
-    Experiment no:  40
-    Experiment no:  41
-    Experiment no:  42
-    Experiment no:  43
-    Experiment no:  44
-    Experiment no:  45
-    Experiment no:  46
-    Experiment no:  47
-    Experiment no:  48
-    Experiment no:  49
-    Experiment no:  50
-    Experiment no:  51
-    Experiment no:  52
-    Experiment no:  53
-    Experiment no:  54
-    Experiment no:  55
-    Experiment no:  56
-    Experiment no:  57
-    Experiment no:  58
-    Experiment no:  59
-    Experiment no:  60
-    Experiment no:  61
-    Experiment no:  62
-    Experiment no:  63
-    Experiment no:  64
-    Experiment no:  65
-    Experiment no:  66
-    Experiment no:  67
-    Experiment no:  68
-    Experiment no:  69
-    Experiment no:  70
-    Experiment no:  71
-    Experiment no:  72
-    Experiment no:  73
-    Experiment no:  74
-    Experiment no:  75
-    Experiment no:  76
-    Experiment no:  77
-    Experiment no:  78
-    Experiment no:  79
-    Experiment no:  80
-    Experiment no:  81
-    Experiment no:  82
-    Experiment no:  83
-    Experiment no:  84
-    Experiment no:  85
-    Experiment no:  86
-    Experiment no:  87
-    Experiment no:  88
-    Experiment no:  89
-    Experiment no:  90
-    Experiment no:  91
-    Experiment no:  92
-    Experiment no:  93
-    Experiment no:  94
-    Experiment no:  95
-    Experiment no:  96
-    Experiment no:  97
-    Experiment no:  98
+    ..................
     Experiment no:  99
     Number of known ciphertexts: 1173
     Average number of candidates for deltaj in each output byte: 2.15
@@ -1014,8 +918,8 @@ Our codes to paralleize algorithm 4 are located in the following path:
 
 Our codes concerning Algorithm 4 for some faulty S-boxes derived in the laboratory:
 
-  -[KeyRecovery1ForGivenFaultySboxesFromTheLab.md](KeyRecovery1ForGivenFaultySboxesFromTheLab.md)
-  -[KeyRecovery1ForGivenFaultySboxesFromTheLab.ipynb](KeyRecovery1ForGivenFaultySboxesFromTheLab.ipynb)
+  - Markdown: [KeyRecovery1ForGivenFaultySboxesFromTheLab.md](KeyRecovery1ForGivenFaultySboxesFromTheLab.md)
+  - Jupyter: [KeyRecovery1ForGivenFaultySboxesFromTheLab.ipynb](KeyRecovery1ForGivenFaultySboxesFromTheLab.ipynb)
 
 
 ## Algorithm 5 - Key Recovery 2
