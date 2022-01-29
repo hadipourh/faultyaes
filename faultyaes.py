@@ -134,6 +134,22 @@ class AES:
                 faulty_sbox[i] = self.sbox[i]
         return faulty_sbox
 
+    def apply_fault_lab(self, labfaultysbox):
+        """
+        Set the faulty S-box to the faulty S-box derived from the laboratory.
+
+        :param int[256] labfaultysbox: faulty S-box derived from laboratory.
+        """
+
+        self.faulty_sbox = labfaultysbox
+        self.dictionary_of_replacement = dict()
+        for i in range(256):
+            if self.sbox[i] != self.faulty_sbox[i]:
+                self.dictionary_of_replacement[self.sbox[i]] = self.faulty_sbox[i]
+        self.inv_faulty_sbox = [0]*(len(self.sbox))
+        for i in range(len(self.faulty_sbox)):
+            self.inv_faulty_sbox[self.faulty_sbox[i]] = i
+
     def change_key(self, master_key):
         """
         Reinitialize round keys

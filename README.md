@@ -49,14 +49,15 @@ pytest test.py
 Terminal output:
 
 ```txt
-============================= test session starts ==============================
+===================================================== test session starts =====================================================
 platform linux -- Python 3.8.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
-rootdir: /home/hhadipour/Desktop/faultyaes
-collected 2 items                                                              
+rootdir: /faultyaes
+collected 4 items                                                                                                             
 
-test.py ..                                                               [100%]
+test.py ....                                                                                                            [100%]
 
-============================== 2 passed in 0.00s ===============================
+====================================================== 4 passed in 0.01s ======================================================
+
 ```
 
 Reference: Test vectors have been taken from [NIST](https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/AES_Core128.pdf)
@@ -158,48 +159,44 @@ Number of key candidates: 2^(24.42)
 
 Our codes concerning Algorithm 3 are located in the following path:
 
-  - Python: [keyrecovery2.py](keyrecovery2.py)
-  - Markdown: [keyrecovery2.md](keyrecovery2.md)
-  - Jupyter: [keyrecovery2.ipynb](keyrecovery2.ipynb)
+- Markdown: [keyrecovery2.md](keyrecovery2.md)
+- Python: [keyrecovery2.py](keyrecovery2.py)
   
 ## Algorithm 4 - Key Recovery 1
 
 Our codes concerning Algorithm 4 are located in the following path:
 
-  - Python: [keyrecovery1.py](keyrecovery1.py)
-  - Markdown: [keyrecovery1.md](keyrecovery1.md)
-  - Jupyter: [keyrecovery1.ipynb](keyrecovery1.ipynb)
+- Markdown: [keyrecovery1.md](keyrecovery1.md)
+- Python: [keyrecovery1.py](keyrecovery1.py)
 
 ## Parallel Key Recovery 1
 
 Our codes to parallelize algorithm 4 are located in the following path:
 
-  - Markdown: [ParallelKeyRecovery.md](ParallelKeyRecovery.md)
-  - Jupyter: [ParallelKeyRecovery.ipynb](ParallelKeyRecovery.ipynb)
-  - Python script: [ParallelKeyRecovery.py](ParallelKeyRecovery.py)
+- Markdown: [ParallelKeyRecovery.md](ParallelKeyRecovery.md)
+- Jupyter: [ParallelKeyRecovery.ipynb](ParallelKeyRecovery.ipynb)
+- Python script: [ParallelKeyRecovery.py](ParallelKeyRecovery.py)
 
 ## Algorithm 4 - Key Recovery 1 For Faulty S-boxes Derived in the Laboratory
 
 Our codes concerning Algorithm 4 for some faulty S-boxes derived in the laboratory:
 
-  - Markdown: [KeyRecovery1ForGivenFaultySboxesFromTheLab.md](KeyRecovery1ForGivenFaultySboxesFromTheLab.md)
-  - Jupyter: [KeyRecovery1ForGivenFaultySboxesFromTheLab.ipynb](KeyRecovery1ForGivenFaultySboxesFromTheLab.ipynb)
-
+- Markdown: [keyrecovery1labfaultysbox.md](keyrecovery1labfaultysbox.md)
+- Python: [keyrecovery1labfaultysbox.py](keyrecovery1labfaultysbox.py)
 
 ## Algorithm 5 - Key Recovery 2
 
 Our codes implementing the Algorithm 5 can be found in the following path:
 
-  - Python: [keyrecovery2.py](keyrecovery2.py)
-  - Markdown: [keyrecovery2.md](keyrecovery2.md)
-  - Jupyter: [keyrecovery2.ipynb](keyrecovery2.ipynb)
+- Markdown: [keyrecovery2.md](keyrecovery2.md)
+- Python: [keyrecovery2.py](keyrecovery2.py)
 
 ## Algorithm 5 - Key recovery 2 For Faulty S-boxes Derived in the Laboratory
 
 Our codes concerning Algorithm 5 for some faulty S-boxes derived in the laboratory:
 
-  - Markdown: [KeyRecovery2ForGivenSboxesFromTheLab.md](KeyRecovery2ForGivenSboxesFromTheLab.md)
-  - Jupyter: [KeyRecovery2ForGivenSboxesFromTheLab.ipynb](KeyRecovery2ForGivenSboxesFromTheLab.ipynb)
+- Markdown: [keyrecovery2labfaultysbox.md](keyrecovery2labfaultysbox.md)
+- Python: [keyrecovery2labfaultysbox.py](keyrecovery2labfaultysbox.py)
 
 ## License
 
