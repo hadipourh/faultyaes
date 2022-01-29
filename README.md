@@ -36,7 +36,7 @@ We also used [Jupyter Notebook](https://jupyter.org/) to implement some of our e
 
 ## Implement (Faulty) AES-128
 
-In [faultyaes.py](faultyaes.py) we have included an implementation AES in Python language which can be used to simulate the multiple persistent fault injection. Moreover, it is supposed that key schedule is not affected by the faults.
+In [faultyaes.py](faultyaes.py) we have included an implementation of AES as a Python class which can be used to simulate the multiple persistent fault attack on this cipher. Moreover, it is supposed that the key schedule is not affected by the faults.
 
 ## Using NIST Test Vectors to Verify the Correctness of AES Implementation
 
@@ -173,9 +173,9 @@ Our codes concerning Algorithm 4 are located in the following path:
 
 Our codes to parallelize algorithm 4 are located in the following path:
 
-- Markdown: [ParallelKeyRecovery.md](ParallelKeyRecovery.md)
-- Jupyter: [ParallelKeyRecovery.ipynb](ParallelKeyRecovery.ipynb)
-- Python script: [ParallelKeyRecovery.py](ParallelKeyRecovery.py)
+- Markdown: [parallelkeyrecovery.md](parallelkeyrecovery.md)
+- Python script: [parallelkeyrecovery.py](parallelkeyrecovery.py)
+- Jupyter: [parallelkeyrecovery.ipynb](parallelkeyrecovery.ipynb)
 
 ## Algorithm 4 - Key Recovery 1 For Faulty S-boxes Derived in the Laboratory
 
