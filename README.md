@@ -91,13 +91,13 @@ Expected number of queries based on our paper: 1533
     
 ## Generate Diagrams of Our Paper
 
-The codes required to produce the figures of our paper, are included in [](), and you can reproduce the shapes by running the following command:
+The codes required to produce the figures of our paper, are included in [gendiagrams.py](gendiagrams.py), and you can reproduce the shapes by running the following command:
 
 ```sh
 python3 gendiagrams.py
 ```
 
-After running the above command, figures are generated and stored in side the folder [Figures](Figures) in [svg](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) format.
+After running the above command, figures are generated and stored inside the folder [Figures](Figures) in [svg](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) format.
 
 **Plot the Number of Non-observed Values With Respect to the Number of Available Ciphertexts - Overview**
 
@@ -108,7 +108,7 @@ After running the above command, figures are generated and stored in side the fo
 ![png](Figures/output_31_0.png)
 
 **Fit an Exponential Curve to Derived Data - Overview**
-    
+
 ![png](Figures/output_33_0.png)
     
 **Fit an Exponential Curve to Derived Data - Close up**
