@@ -26,8 +26,6 @@ def harmonic_number(n):
 
 xtime = lambda a: (((a << 1) ^ 0x1B) & 0xFF) if (a & 0x80) else (a << 1)
 
-harmonic_number = lambda n: float(sum(Fraction(1, d) for d in range(1, n+1)))
-
 def text2matrix(text):
     """
     Represent an integer as a 4 by 4 array of bytes

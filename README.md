@@ -158,15 +158,17 @@ Number of key candidates: 2^(24.42)
 
 Our codes concerning Algorithm 3 are located in the following path:
 
-  - Markdown: [KeyRecovery2.md](KeyRecovery2.md)
-  - Jupyter: [KeyRecovery2.ipynb](KeyRecovery2.ipynb)
+  - Python: [keyrecovery2.py](keyrecovery2.py)
+  - Markdown: [keyrecovery2.md](keyrecovery2.md)
+  - Jupyter: [keyrecovery2.ipynb](keyrecovery2.ipynb)
   
 ## Algorithm 4 - Key Recovery 1
 
 Our codes concerning Algorithm 4 are located in the following path:
 
-  - Markdown: [KeyRecovery1.md](KeyRecovery1.md)
-  - Jupyter: [KeyRecovery1.ipynb](KeyRecovery1.ipynb)
+  - Python: [keyrecovery1.py](keyrecovery1.py)
+  - Markdown: [keyrecovery1.md](keyrecovery1.md)
+  - Jupyter: [keyrecovery1.ipynb](keyrecovery1.ipynb)
 
 ## Parallel Key Recovery 1
 
@@ -188,8 +190,9 @@ Our codes concerning Algorithm 4 for some faulty S-boxes derived in the laborato
 
 Our codes implementing the Algorithm 5 can be found in the following path:
 
-  - Markdown: [KeyRecovery2.md](KeyRecovery2.md)
-  - Jupyter: [KeyRecovery2.ipynb](KeyRecovery2.ipynb)
+  - Python: [keyrecovery2.py](keyrecovery2.py)
+  - Markdown: [keyrecovery2.md](keyrecovery2.md)
+  - Jupyter: [keyrecovery2.ipynb](keyrecovery2.ipynb)
 
 ## Algorithm 5 - Key recovery 2 For Faulty S-boxes Derived in the Laboratory
 

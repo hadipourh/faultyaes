@@ -19,7 +19,7 @@ def test_encryption():
     if derived_ciphertext == expected_ciphertext:
         assert True
     else:
-        assert False, "AES encryption doesn't work correctly :-("
+        assert False, "AES encryption doesn't work correctly!"
 
 def test_decryption():
     faulty_aes = AES(master_key)
@@ -29,4 +29,25 @@ def test_decryption():
     if derived_plaintext == plaintext:        
         assert True
     else:
-        assert False, "AES decryption doesn't work correctly :-("
+        assert False, "AES decryption doesn't work correctly!"
+
+def test_last_round_key():
+    faulty_aes = AES(master_key)
+    faulty_aes.apply_fault(number_of_faults=0)
+    last_round_key = faulty_aes.round_keys[4*10:4*11]
+    faulty_aes.derive_round_keys_from_last_round_key(last_round_key)
+    ciphertext = faulty_aes.encrypt(plaintext)
+    if ciphertext == expected_ciphertext:
+        assert True
+    else:
+       assert False, "derive_round_keys_from_last_round_key doesn't work correctly!"
+
+def test_decrypt_and_count1():
+    faulty_aes = AES(master_key)
+    faulty_aes.apply_fault(number_of_faults=0)
+    ciphertext = faulty_aes.encrypt(plaintext)
+    cnt = faulty_aes.decrypt_and_count1(ciphertext=ciphertext, Vi=[])
+    if cnt == 9:
+        assert True
+    else:
+        assert False, "decrypt_and_count1 does not work correctly!"
